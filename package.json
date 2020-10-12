@@ -1,0 +1,40 @@
+{
+  "name": "oauth2orize-provider",
+  "version": "0.2.0",
+  "repository": "https://komalsingh54@bitbucket.org/komalsingh54/oauth2-provider.git",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Komal Singh",
+      "url": "https://github.com/komalsingh54"
+    }
+  ],
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@poziworld/oauth2orize": "^1.11.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^4.1.1",
+    "oauth2orize": "^1.8.0",
+    "passport": "^0.4.1",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth2-client-password": "^0.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.4"
+  }
+}
